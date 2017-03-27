@@ -1,0 +1,28 @@
+[{
+  "caption": "Preferences",
+  "mnemonic": "n",
+  "id": "preferences",
+  "children": [{
+    "caption": "Package Settings",
+    "mnemonic": "P",
+    "id": "package-settings",
+    "children": [{
+      "caption": "csso",
+      "children": [{
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/csso/Csso.sublime-settings"
+        },
+        "caption": "Settings – Default"
+      }, {
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/User/Csso.sublime-settings"
+        },
+        "caption": "Settings – User"
+      }, {
+        "caption": "-"
+      }]
+    }]
+  }]
+}]

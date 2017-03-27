@@ -1,0 +1,4 @@
+[{
+  "caption": "Minify CSS",
+  "command": "csso_minify"
+}]

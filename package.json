@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "dependencies": {
+    "csso-cli": "^1.0.0",
+    "execa": "^0.6.3",
+    "get-stdin": "^5.0.1"
+  }
+}
