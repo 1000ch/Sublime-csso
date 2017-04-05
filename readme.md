@@ -9,6 +9,14 @@ You can install via with [Package Control](https://packagecontrol.io/) and resta
 
 ![demo](https://cloud.githubusercontent.com/assets/1800018/24616724/ec52a8fe-18cc-11e7-86ec-2eb05d04fae3.gif)
 
+### Prerequisite
+
+[CSSO](https://github.com/css/csso) requires Node.js as runtime. If you don't have Node.js, install via followings.
+
+- [Download installer](https://nodejs.org/)
+- Use [nodenv/nodenv](https://github.com/nodenv/nodenv)
+- Use [hokaccha/nodebrew](https://github.com/hokaccha/nodebrew)
+
 ## Usage
 
 In a CSS file, open the Command Palette (<kbd>Cmd</kbd> <kbd>Shift</kbd> <kbd>P</kbd>) and choose **Minify CSS**.
