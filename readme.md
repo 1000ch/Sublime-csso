@@ -1,5 +1,7 @@
 # Sublime-csso
 
+A plugin for [Sublime Text](https://www.sublimetext.com/) providing an interface to [CSSO](https://github.com/css/csso).
+
 ## Install
 
 You can install via with [Package Control](https://packagecontrol.io/) and restart Sublime.
