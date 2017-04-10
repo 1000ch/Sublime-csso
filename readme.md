@@ -23,7 +23,7 @@ You can install via with [Package Control](https://packagecontrol.io/) and resta
 
 In a CSS file, open the Command Palette (<kbd>Cmd</kbd> <kbd>Shift</kbd> <kbd>P</kbd>) and choose **Minify CSS**.
 
-## Configuration
+## Config
 
 If you want to disable `restructure` option, you can configure from Preferences → Package Settings → Csso → Settings - User.
 
