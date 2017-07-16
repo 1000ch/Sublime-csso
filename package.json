@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "csso": "^3.0.1",
+    "csso": "^3.1.1",
     "get-stdin": "^5.0.1"
   }
 }
