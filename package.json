@@ -1,8 +1,11 @@
 {
+  "version": "1.1.0",
   "private": true,
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
   "dependencies": {
     "csso": "^3.1.1",
     "get-stdin": "^5.0.1"
-  },
-  "version": "1.1.0"
+  }
 }
