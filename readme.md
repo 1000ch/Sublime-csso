@@ -1,4 +1,4 @@
-# Sublime-csso
+# Sublime-csso [![Dependency Status](https://david-dm.org/1000ch/Sublime-csso.svg)](https://david-dm.org/1000ch/Sublime-csso)
 
 A plugin for [Sublime Text](https://www.sublimetext.com/) providing an interface to [CSSO](https://github.com/css/csso).
 
