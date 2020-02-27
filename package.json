@@ -5,7 +5,7 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "csso": "^3.5.1",
+    "csso": "^4.0.2",
     "get-stdin": "^7.0.0"
   }
 }
