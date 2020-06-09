@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "csso": "^4.0.2",
-    "get-stdin": "^7.0.0"
+    "get-stdin": "^8.0.0"
   }
 }
