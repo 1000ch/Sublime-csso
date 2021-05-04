@@ -1,7 +1,5 @@
-'use strict';
-
-const getStdin = require('get-stdin');
-const csso = require('csso');
+import getStdin from 'get-stdin';
+import csso from 'csso';
 
 getStdin()
   .then(data => minify(data))
