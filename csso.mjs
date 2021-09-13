@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import getStdin from 'get-stdin';
 import csso from 'csso';
 
