@@ -1,6 +1,7 @@
 {
   "version": "3.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "postversion": "git push && git push --tags"
   },
@@ -9,7 +10,7 @@
     "get-stdin": "^9.0.0"
   },
   "engines": {
-    "node": ">=12.17",
+    "node": ">=12.20",
     "npm": ">=7"
   }
 }
