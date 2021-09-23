@@ -2,6 +2,8 @@
 
 A plugin for [Sublime Text](https://www.sublimetext.com/) providing an interface to [CSSO](https://github.com/css/csso).
 
+![demo](https://cloud.githubusercontent.com/assets/1800018/24616724/ec52a8fe-18cc-11e7-86ec-2eb05d04fae3.gif)
+
 ## Install
 
 You can install via with [Package Control](https://packagecontrol.io/) and restart Sublime.
@@ -9,7 +11,11 @@ You can install via with [Package Control](https://packagecontrol.io/) and resta
 - **Install Package**: Search with `CSSO`.
 - **Add Repository**: Put URL `https://github.com/1000ch/Sublime-csso`.
 
-![demo](https://cloud.githubusercontent.com/assets/1800018/24616724/ec52a8fe-18cc-11e7-86ec-2eb05d04fae3.gif)
+Also you can install this extension locally by putting symbolic link from `~/Library/Application\ Support/Sublime\ Text/Packages/` to `~/path/to/this/repo` like below.
+
+```bash
+$ ln -s ~/workspace/github.com/1000ch/Sublime-csso ~/Library/Application\ Support/Sublime\ Text/Packages/CSSO
+```
 
 ### Prerequisite
 
