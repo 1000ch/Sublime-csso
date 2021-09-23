@@ -24,25 +24,12 @@ def get_setting(view, key):
 
 class CssoMinifyCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        if not self.has_selection():
-            region = sublime.Region(0, self.view.size())
-            originalBuffer = self.view.substr(region)
-            processed = self.minify(originalBuffer)
+        region = sublime.Region(0, self.view.size())
+        buffer = self.view.substr(region)
+        processed = self.minify(buffer)
 
-            if processed:
-                self.view.replace(edit, region, processed)
-
-            return
-
-        for region in self.view.sel():
-            if region.empty():
-                continue
-
-            originalBuffer = self.view.substr(region)
-            processed = self.minify(originalBuffer)
-
-            if processed:
-                self.view.replace(edit, region, processed)
+        if processed:
+            self.view.replace(edit, region, processed)
 
     def minify(self, data):
         try:
@@ -51,12 +38,3 @@ class CssoMinifyCommand(sublime_plugin.TextCommand):
             })])
         except Exception as e:
             sublime.error_message('csso\n%s' % e)
-
-    def has_selection(self):
-        for sel in self.view.sel():
-            start, end = sel
-
-            if start != end:
-                return True
-
-        return False
